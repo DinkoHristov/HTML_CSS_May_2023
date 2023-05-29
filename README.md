@@ -6,3 +6,5 @@ This is a repository with solutions of problems in my SoftUni Course: HTML &amp;
 2.1.HTML Structure - More
 3.CSS & Typography
 3.1.CSS & Typography - More
+4.CSS Box Model
+4.1.CSS Box Model - More
