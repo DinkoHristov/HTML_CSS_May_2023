@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+}  
+
+.facebook:hover {
+    color: darkblue;
+}
+
+.twitter:hover {
+    color: skyblue;
+}
+
+.google:hover {
+    color: red;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: blue;
+}
