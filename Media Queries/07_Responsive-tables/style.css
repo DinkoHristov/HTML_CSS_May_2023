@@ -1,0 +1,27 @@
+body {
+    background-color: #eee;
+}
+
+table, th, td{
+    border: 1px solid;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-indent: 5px;
+    text-align: left;
+}
+
+th {
+    background: black;
+    color: white;
+}
+
+tbody .second {
+    background: white;
+}

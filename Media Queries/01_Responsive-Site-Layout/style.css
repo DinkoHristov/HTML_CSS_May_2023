@@ -1,0 +1,38 @@
+header h1 {
+    display: block;
+    margin-bottom: 5px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+}
+
+body > * {
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+header {grid-area: header;}
+aside {grid-area: aside;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+@media (max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+            "header header"
+            "aside aside"
+            "main main"
+            "footer footer";
+    }
+}
